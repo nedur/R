@@ -1,7 +1,7 @@
 # Introdução ao R
 # Núcleo de Estudos em Desenvolvimento Urbano e Regional - NEDUR
 # Prof. Vinicius A. Vale, Tania M. Alberti & Davi W. Catelan
-# Março, 2022
+# Julho, 2022
 
 {
   # 1. Introdução
@@ -10,7 +10,7 @@
   # criação de objetos, importação e exportação de dados, manipulação de
   # dados e visualização.
   
-  # Mais detalhes em http://www.nedur.ufpr.br/portal/cursos/
+  # Mais detalhes em http://nedur.ufpr.br/cursos/
   
 } # 1. Introdução
 {
@@ -22,7 +22,7 @@
 } # 2. R e RStudio
 {
   # 3. Links úteis
-  # Acesse o material em http://www.nedur.ufpr.br/portal/cursos/
+  # Acesse o material em http://nedur.ufpr.br/cursos/
   
 } # 3. Links úteis
 {
@@ -102,7 +102,7 @@
 } # 7. Operações básicas
 {
   # 8. Objetos e classes
-  # Acesse o material em http://www.nedur.ufpr.br/portal/cursos/
+  # Acesse o material em http://nedur.ufpr.br/cursos/
   
 } # 8. Objetos e classes
 {
@@ -392,7 +392,7 @@
   
   {
     # 13.1. Arquivos CSV
-    # Dados: https://viniciusvale.github.io/IntroR/EXP_2019.rar
+    # Dados: https://nedur.github.io/r/EXP_2019.rar
     install.packages("readr")
     library(readr)
     dexp <- read_csv2("EXP_2019.csv")
@@ -401,7 +401,7 @@
   } # 13.1. Arquivos CSV
   {
     # 13.2. Arquivos XLS E XLSX
-    # Dados: http://viniciusvale.github.io/IntroR/EXP2019_ComexStat.xlsx
+    # Dados: https://nedur.github.io/r/EXP2019_ComexStat.xlsx
     install.packages("readxl")
     library(readxl)
     dados <- read_excel("EXP2019_ComexStat.xlsx")
